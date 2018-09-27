@@ -11,7 +11,7 @@ if (!empty($_GET)) {
      }
      if ( !($idade > 20 && $sexo="Fem")) {
         $erro = "Idade para sexo FEM deve ser maior que 20";
-     }
+     }else
      // testa o nome        
      $nomes = explode(" ", $nome);
      if (count($nomes) < 2) {
